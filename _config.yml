@@ -1,3 +1,2 @@
-source:      ./_pages
 destination: ./_site
-plugins:     ./_plugins
+pygments: true
