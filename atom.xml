@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>scribble.yuyat.jp</title>
+  <link href="http://scribble.yuyat.jp/"/>
+  <link type="application/atom+xml" rel="self" href="http://scribble.yuyat.jp/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://scribble.yuyat.jp/</id>
+  <author>
+    <name>Yuya Takeyama</name>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <id>http://scribble.yuyat.jp{{ post.id }}</id>
+    <link type="text/html" rel="alternate" href="http://scribble.yuyat.jp{{ post.url }}"/>
+    <title>{{ post.title | xml_escape }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Yuya Takeyama</name>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+ 
+</feed>
