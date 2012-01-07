@@ -1,0 +1,29 @@
+---
+layout: blog
+title: scribble.yuyat.jp
+---
+<h1>{{ page.title }}</h1>
+<div><img src="./avater.jpg" alt="Avater" /></div>
+
+<div class="posts">
+  <h2>Posts</h2>
+
+  <ul>
+{% for post in site.posts limit:10 %}
+    <li>
+      <span class="date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title | xml_escape }}</a>
+    </li>
+{% endfor %}
+  </ul>
+</div>
+
+<h2>Other pages</h2>
+
+<ul>
+  <li><a href="http://yuyat.jp/">Yuya Takeyama</a></li>
+  <li><a href="http://blog.yuyat.jp/">Blog: Born Too Late</a></li>
+  <li><a href="http://twitter.com/yuya_takeyama">Twitter: @yuya_takeyama</a></li>
+  <li><a href="https://github.com/yuya-takeyama">GitHub: yuya-takeyama</a></li>
+</ul>
+
+<fb:like href="http://scribble.yuyat.jp/" send="true" width="600" show_faces="true" font="arial"></fb:like>

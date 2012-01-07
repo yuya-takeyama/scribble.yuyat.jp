@@ -1,0 +1,8 @@
+---
+layout: blog
+---
+<div class="post">
+  <h1>{{ page.title | xml_escape }}</h1>
+  <div>Posted at <span>{{ page.date | date_to_string }}</span></div>
+  <article>{{ content }}</article>
+<a href="/">Home</a>

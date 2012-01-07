@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#" lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta property="og:title" content="{{ page.title | xml_escape }}" />
+  <meta property="og:type" content="{{ page.layout }}" />
+  <meta property="og:url" content="http://scribble.yuyat.jp/" />
+  <meta property="og:image" content="http://scribble.yuyat.jp/avater.jpg" />
+  <meta property="og:site_name" content="scribble.yuyat.jp" />
+  <meta property="fb:admins" content="100000987494966" />
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <div id="content">
+    {{ content }}
+  </div>
+</body>
+</html>

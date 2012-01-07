@@ -1,0 +1,3 @@
+source:      ./_pages
+destination: ./_site
+plugins:     ./_plugins
