@@ -1,4 +1,4 @@
 *.swp
 .bundle
 _site
-vendor
+_vendor
