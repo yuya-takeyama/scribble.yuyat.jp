@@ -1,0 +1,110 @@
+@import "http://fonts.googleapis.com/css?family=Kimberly+Geswein";
+@import "http://fonts.googleapis.com/css?family=Shadows+Into+Light";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    width: 600px;
+    margin: 1em auto;
+    font-size: 16px;
+}
+
+#site-name {
+    font-family: "Shadows Into Light";
+    font-size: 140%;
+    padding: 0.3em 0.3em 2.2em 0.3em;
+    font-weight: 100;
+}
+
+#site-name .large {
+    font-family: inherit;
+    font-size: 240%;
+}
+
+#site-name a:link, #site-name a:visited {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
+.avater {
+    text-align: center;
+    margin: 1.6em;
+}
+
+h2 {
+    font-family: "Shadows Into Light";
+    font-size: 200%;
+    margin: 0.8em 1.2em;
+}
+
+.highlight span {
+    font-family: "Inconsolata", serif;
+}
+
+.article-subject {
+    padding: 0.4em 0.6em;
+    font-size: 180%;
+}
+
+.posted-at {
+    font-size: 80%;
+    color: rbga(50, 50, 0, 0.9);
+    text-align: right;
+    padding: 0.2em 1.6em;
+}
+
+.article > p {
+    margin: 1em 1.2em;
+    line-height: 150%;
+}
+
+.article ul {
+    border: 1px #000 solid;
+    list-style-type: square;
+    margin: 1.2em 2.2em;
+    padding: 0 1em;
+}
+
+ul.links {
+    margin: 0.8em 1.6em;
+    border: 1px rgba(0, 0, 0, 0.4) solid;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-bodrder-radius: 1em;
+}
+
+ul.links li {
+    display: block;
+    padding: 0.6em 0.8em;
+    /* border-bottom: 1px rgba(0, 0, 0, 0.4) solid; */
+    font-size: 140%;
+}
+
+ul.links li .date {
+    font-size: 70%;
+    font-family: "Inconsolata", serif;
+}
+
+.links a:link, .links a:visited {
+    font-size: inherit;
+    color: #000;
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: #333;
+}
+
+.links a:hover {
+    color: #a00;
+    text-decoration: underline;
+}
+
+footer aside.facebook {
+    margin: 1.2em 1.8em;
+}
