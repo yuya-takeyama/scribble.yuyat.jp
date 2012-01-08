@@ -11,7 +11,7 @@ title: "PHP の HashTable を読む #1"
 
 今回の記事でも GitHub における [php/php-src](https://github.com/php/php-src) の [commit c5d10ddda394b573dfaea1380285e1dd5f3c0d50](https://github.com/php/php-src/tree/c5d10ddda394b573dfaea1380285e1dd5f3c0d50) を前提としている.
 
-ZendHash 構造体は ./Zend/zend_hash.h において以下のように定義されている.
+HashTable 構造体は ./Zend/zend_hash.h において以下のように定義されている.
 
 {% highlight cpp %}
 typedef struct _hashtable {
