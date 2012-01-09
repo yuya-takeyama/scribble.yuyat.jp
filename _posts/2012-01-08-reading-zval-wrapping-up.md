@@ -5,9 +5,9 @@ title: "PHP の zval を読む (まとめ)"
 
 以下の記事において PHP の zval について調べてきた.
 
-- [PHP の zval を読む #1](http://localhost:4000/2012/01/08/reading-zval-01.html)
-- [PHP の zval を読む #2](http://localhost:4000/2012/01/08/reading-zval-02.html)
-- [PHP の zval を読む #3](http://localhost:4000/2012/01/08/reading-zval-03.html)
+- [PHP の zval を読む #1](/2012/01/08/reading-zval-01.html)
+- [PHP の zval を読む #2](/2012/01/08/reading-zval-02.html)
+- [PHP の zval を読む #3](/2012/01/08/reading-zval-03.html)
 
 これらを一旦まとめる.
 
