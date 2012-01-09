@@ -50,6 +50,12 @@ h2 {
     font-size: 180%;
 }
 
+.article-subject a:link, .article-subject a:visited {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
+}
+
 .posted-at {
     font-size: 80%;
     color: rbga(50, 50, 0, 0.9);

@@ -3,7 +3,8 @@ layout: blog
 ogtype: article
 ---
 <div class="post">
-  <h1 class="article-subject">{{ page.title | xml_escape }}</h1>
+  <h1 class="article-subject"><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h1>
+  <div class="hatena-star"></div>
   <div class="posted-at">Posted at <span>{{ page.date | date_to_string }}</span></div>
   <article class="article">{{ content }}</article>
 
