@@ -56,6 +56,10 @@ h2 {
     text-decoration: none;
 }
 
+.hatena-star {
+    margin: 0.1em 1.6em;
+}
+
 .posted-at {
     font-size: 80%;
     color: rbga(50, 50, 0, 0.9);
