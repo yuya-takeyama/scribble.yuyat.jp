@@ -1,10 +1,9 @@
-@import "http://fonts.googleapis.com/css?family=Kimberly+Geswein";
-@import "http://fonts.googleapis.com/css?family=Shadows+Into+Light";
+@import "http://fonts.googleapis.com/css?family=Quicksand|Kimberly+Geswein|Shadows+Into+Light|Inconsolata";
 
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', 'ヒラギノ丸ゴ ProN W4','Hiragino Maru Gothic ProN', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
 }
 
 #content {
