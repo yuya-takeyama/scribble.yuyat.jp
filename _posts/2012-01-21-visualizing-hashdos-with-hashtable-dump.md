@@ -127,6 +127,7 @@ pListTail:        56
 ここにもうひとつ要素を追加すると次のようになる.
 
 {% highlight php %}
+<?php
 hashtable_dump(array(0 => 1, 8 => 2, 16 => 3, 24 => 4, 32 => 5, 40 => 6, 48 => 7, 56 => 8, 64 => 9));
 nTableSize:       16
 nTableMask:       15
