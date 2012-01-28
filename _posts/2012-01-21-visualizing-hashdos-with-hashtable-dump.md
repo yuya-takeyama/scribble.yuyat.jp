@@ -129,6 +129,7 @@ pListTail:        56
 {% highlight php %}
 <?php
 hashtable_dump(array(0 => 1, 8 => 2, 16 => 3, 24 => 4, 32 => 5, 40 => 6, 48 => 7, 56 => 8, 64 => 9));
+/*
 nTableSize:       16
 nTableMask:       15
 nNumOfElements:   9
@@ -152,6 +153,7 @@ pListTail:        64
   13 => [NULL]
   14 => [NULL]
   15 => [NULL]
+*/
 {% endhighlight %}
 
 要素数が 9 のときは, テーブルの大きさが 8 の 2 倍の 16 に拡張されるため, 偏りが少し解消される.
