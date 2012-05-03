@@ -30,7 +30,7 @@ title: "Redmine 1.4 を CentOS 5 にインストールしたときの作業メ�
 基本的にグローバルな環境をなるべく汚さないことを意識しています.
 
 - Ruby は ruby-build と rbenv で入れる
-- RMagick は諦める
+- RMagick は諦める (yum で入る ImageMagick が古い)
 - Gem は ./vendor ディレクトリにインストールする
 - Passenger も Bundler でインストールする
 - Redmine は tarball でなく Git でインストールする
