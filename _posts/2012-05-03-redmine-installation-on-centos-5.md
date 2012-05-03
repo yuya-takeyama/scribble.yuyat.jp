@@ -19,8 +19,7 @@ title: "Redmine 1.4 を CentOS 5 にインストールしたときの作業メ�
 - Apache 2
 - Phusion Passenger (mod_passenger)
 
-ちなみにサーバはさくら VPS の 980 円プランのを使っています.  
-月額 980 円でメモリ 1GB HDD 100GB とかすごいですね.
+さくら VPS 月額 980 円でメモリ 1GB HDD 100GB とかすごいですね.
 
 以下の記事を参考にしました.
 
